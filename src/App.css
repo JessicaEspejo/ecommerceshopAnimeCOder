@@ -1,0 +1,240 @@
+:root {
+  --bg: #1e2345;
+  --violet: rgb(161, 132, 240);
+  --pink: #d60087;
+  --turquoise: #2fdabd;
+
+}
+
+
+*{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  background-image: url("/src/assets/img_pro/fondo.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*   Home.jsx*/
+
+.inicio{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 20% 39%;
+
+}
+
+.inicio h1{
+  color: rgb(124, 12, 134);
+  font-size: 50px;
+}
+.buttonInicio{
+  border: 0;
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  margin: 30px;
+  background-color: rgb(234, 161, 237);
+  font-style: italic;
+  color: aliceblue;
+  font-size: 19px;
+}
+
+
+
+/*  Estilo del componente NavBar.jsx*/
+.logo{
+  width: 100px;
+  border-radius: 100%;
+}
+.Nav{
+
+  background: rgb(254, 229, 253);
+  display: flex;
+justify-content: space-around;
+  align-items: center;
+  color: rgb(96, 10, 93);
+
+padding: 10px 60px ;
+}
+.dropdown-toggle{
+  color: rgb(96, 10, 93);
+}
+
+/*  Estilo del componente CardWidget.jsx*/
+
+.bloBoton{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.buttonCompra{
+  background: #d7a3e268;
+  color: #b82489;
+  border-color: #b82489;
+}
+
+/*  Estilo del componente ItemList.jsx*/
+
+.Prod{
+  margin: 60px 200px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+
+.mydiv {
+	position: relative;	
+}
+
+.animate-bg:before, .animate-bg:after {
+	content: '';
+	position: absolute;
+	left: -8px;
+	top: -8px;
+	background: linear-gradient(120deg, #e600fb5e, #8d01a052, #a5035953,#ff004c,  
+	#e6036d4b, #fb009260,#ff660053, #04c2e456,#adad024d, #00c3ff4d);
+	background-size: 300%;
+	width: calc(100% + 16px);
+	height: calc(100% + 16px);
+	z-index: -1;
+	animation: BGgradient 15s ease infinite; 
+}
+
+@keyframes BGgradient {
+	0% {
+		background-position: 0% 200%;
+	}
+	50% {
+		background-position: 200% 0%;
+	}
+	100% {
+		background-position: 0% 330%;
+	}
+}
+
+.animate-bg:after {
+	filter: brightness(1.4);
+	filter: drop-shadow(16px 16px 20px rgb(248, 220, 97));
+	filter: blur(15px);
+}
+
+.listProd{
+  margin: 15px;
+  box-shadow: 1px 1px 40px rgb(63, 29, 78);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: all 2s;
+}
+.card-body{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listProd:hover{
+  transform: scale(1.1);
+}
+
+/*  Estilo del componente Item.jsx*/
+
+.img{
+  width: 250px;
+  height: 350px;
+  margin: 0 auto;
+}
+.cardList{
+  height: 590px;
+  text-align: center;
+  width: 300px;
+  background-color: rgba(228, 183, 233, 0.594);
+  color: rgb(249, 248, 248);
+}
+
+/*  Estilo del componente Cart.jsx*/
+
+.BloqueCart{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 30px auto;
+  
+}
+
+/*  Estilo del componente ItemCount.jsx*/
+
+.BloqueCount{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.SpanCount{
+  font-weight: bold;
+  margin: 10px;
+}
+
+/*  Estilo del componente ItemDetail.jsx*/
+
+.cardDetail{
+  margin: 20px auto;
+  height: 650px;
+  text-align: center;
+  width: 500px;
+  background-color: rgba(230, 148, 239, 0.591);
+color: rgb(255, 255, 255);
+}
+.btn-secondary{
+  color: antiquewhite;
+  background-color: rgb(158, 11, 172);
+}
+.bg-war{
+  background-color: rgba(209, 28, 158, 0.493);
+}
+
+.gradient-text {
+  background-image: linear-gradient(45deg, var(--violet), var(--turquoise));
+  background-color: var(--violet);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+
+
+.gradient-border {
+  animation: gradient 5s linear infinite;
+  background: linear-gradient(100deg, var(--violet) 25%, var(--turquoise) 50%, var(--violet) 75%);
+  background-repeat: repeat;
+  width: 36%;
+  height: 20%;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  margin: 2rem 30rem ;
+
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: -80rem 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

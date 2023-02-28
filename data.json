@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "img": "https://m.media-amazon.com/images/I/81fMu+2G4zL._AC_SX679_.jpg",
+        "producto": "Anime Anime Manga Cute Girl Yandere  Estuche de Iphone ",
+        "descripcion": "Estuche de  iphone 12 anime kawai",
+        "precio": 12000,
+        "category": "Estuche",
+        "cantidad": 7
+    },
+    {
+        "id": 2,
+        "img": "https://m.media-amazon.com/images/I/71i585IYxTL._AC_SX425_.jpg",
+        "producto": " Tapete Custom Anime Glowing Led Extended XXL Tapis de clavier",
+        "descripcion": " los colores parecen tipo Neon, estan excelentes es una muy buena compra para adornar tu set up y ademas de dar una gran firmeza y desplazamiento a tu mouse.",
+        "precio": 13000,
+        "category": "Tapete",
+        "cantidad": 13
+    },
+    {
+        "id": 3,
+        "img": "https://m.media-amazon.com/images/I/71Pu+Kv1N5L.jpg",
+        "producto": "Tapete Anime Nude Waifu - Alfombrilla de ratón",
+        "descripcion": "calidad de los materiales es muy buena teniendo encuenta su precio, ademas de que el rgb es bastante reluciente pero sin ser molesto ala vista.",
+        "precio": 98000,
+        "category": "Tapete",
+        "cantidad": 15
+    },
+    {
+        "id": 4,
+        "img": "https://animecristal.com/wp-content/uploads/2023/02/estatua-demon-slayer-tengen-uzui-01.jpg",
+        "producto": "Estatua Demon Slayer Tengen Uzui",
+        "descripcion": "Realizamos embalaje propio, tomamos fotos y aseguramos siempre el contenido.. ",
+        "precio": 50000,
+        "category": "Figura",
+        "cantidad": 10
+    },
+    {
+        "id": 5,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_814383-MCO41988968669_052020-O.webp",
+        "producto": "Alcancia De Panda Roba Monedas Animada Electronica",
+        "descripcion": "Producto Kawai que roba tu comida",
+        "precio": 55000,
+        "category": "Alcancia",
+        "cantidad": 8
+    },
+    {
+        "id": 6,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_697609-MCO47937747638_102021-O.webp",
+        "producto": "Figura De Acción Sanji One Piece Anime Heroes Bandai",
+        "descripcion": "Al tener marcadas las articulaciones podrás manejar y acomodar tus figuras como más te guste. Con ellas, vas a poder crear historias en la que los personajes.",
+        "precio": 25000,
+        "category": "Figura",
+        "cantidad": 5
+    },
+    {
+        "id": 7,
+        "img": "https://ih1.redbubble.net/image.1151368517.6403/icr,iphone_13_soft,back,a,x1000-bg,f8f8f8.jpg",
+        "producto": "Anime Waifu Ahegao Sexy Girl  Estuche de Iphone",
+        "descripcion": "Al tener marcadas las articulaciones podrás manejar y acomodar tus figuras como más te guste. Con ellas.",
+        "precio": 30000,
+        "category": "Estuche",
+        "cantidad": 12
+    },
+    {
+        "id": 8,
+        "img": "https://m.media-amazon.com/images/I/71Dg2lDZPxL._AC_SX425_.jpg",
+        "producto": "Anime Nude Waifu - Alfombrilla de ratón ",
+        "descripcion": "La alfombrilla para mouse para juegos está hecha de material tejido de microfibra, que puede convertir con precisión cada movimiento del mouse en movimiento del cursor, la alta densidad de deformación hace que tu mouse se deslice fácilmente en la alfombrilla del mouse.",
+        "precio": 22000,
+        "category": "Tapete",
+        "cantidad": 10
+    },
+    {
+        "id": 9,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_672519-CBT48664793733_122021-O.webp",
+        "producto": "Figura De Acción De Cambio De Cara De Naruto Juguete De Arti",
+        "descripcion": "El vendedor no incluyó una descripción del producto",
+        "precio": 45000,
+        "category": "Figura",
+        "cantidad": 6
+    },
+    {
+        "id": 10,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_804764-MCO52413872800_112022-O.webp",
+        "producto": "Alcancia De Gato  Roba Monedas Animada Electronica",
+        "descripcion": "sólo basta con poner una moneda en la parte blanca y presionar suavemente y el animalito se cuela fuera de la caja y roba astutamente tu moneda",
+        "precio": 16500,
+        "category": "Alcancia",
+        "cantidad": 15
+    }
+
+]
